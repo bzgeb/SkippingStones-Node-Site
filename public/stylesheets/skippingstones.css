@@ -1,7 +1,7 @@
 body {
   color: #000;
   font-family: 'Cabin', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -70,4 +70,9 @@ a {
 }.subscribe:active {
   position:relative;
   top:1px;
+}
+
+#response p {
+  font-size: 14px;  
+  color: #777;
 }
