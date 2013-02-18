@@ -77,44 +77,32 @@
         </div>
 
         <!-- Social -->
-        <!-- Desktop -->
-        <div class="row bottom-small-spacer hidden-phone">
-            <div class="span4">
+        <div class="row bottom-small-spacer">
+            <div class="span4 hidden-phone">
                 <h3>About the Game</h3>
                 <p class="justify">Skipping Stones is an experimental sound and poetry toy. Players throw stones accross a lake and create musical tones with each skip of the stone.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
             </div>
-            <div class="span2 offset1">
+            <!-- Phone -->
+            <div align="center" class="span4 visible-phone">
+                <h3>About the Game</h3>
+                <p>Skipping Stones is an experimental sound and poetry toy. Players throw stones accross a lake and create musical tones with each skip of the stone.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
+            </div>
+
+            <!-- Desktop -->
+            <div class="span2 offset1 hidden-phone">
                 <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-op.png" width="118px" class="top-med-spacer"/></a>
             </div>
+            <!-- Phone -->
+            <div align="center" class="span2 offset1 visible-phone">
+                <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-op.png" width="118px" class="top-med-spacer"/></a>
+            </div>
+
             <div class="span4 offset1">
                 <h3>Subscribe To The Mailing List</h3>
                 <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
                     <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
                     <input class="subscribe" name="commit" type="submit" value="Subscribe" />
                     <div style="height:45px; margin-top:-15px;" id="response">
-                    </div>
-                </form>
-                <div class="fb-like" data-href="https://www.facebook.com/koopmode" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="verdana"></div> 
-                <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="row bottom-small-spacer visible-phone">
-            <div class="span4" align="center">
-                <h3>About the Game</h3>
-                <p>Skipping Stones is an experimental sound and poetry toy. Players throw stones accross a lake and create musical tones with each skip of the stone.  Follow the development on our <a href="http://koopmodeblog.tumblr.com/">blog</a></p>
-            </div>
-            <div class="span2" align="center">
-                <a href="http://www.ko-opmode.com"  onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP Mode']);"><img alt="Ko-opicon" src="/images/ko-op.png" width="118px" class="top-med-spacer"/></a>
-            </div>
-            <div class="span4" align="center">
-                <h3>Subscribe To The Mailing List</h3>
-                <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
-                    <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
-                    <input class="subscribe" name="commit" type="submit" value="Subscribe" />
-                    <div style="height:25px" id="response">
                     </div>
                 </form>
                 <div class="fb-like" data-href="https://www.facebook.com/koopmode" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="verdana"></div> 
