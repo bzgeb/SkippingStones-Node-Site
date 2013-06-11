@@ -67,9 +67,9 @@ em {
   font-weight:bold;
   padding:6px 30px;
   text-decoration:none;
-}.classname:hover {
+}.subscribe:hover {
   background-color:#dfdfdf;
-}.classname:active {
+}.subscribe:active {
   position:relative;
   top:1px;
 }
