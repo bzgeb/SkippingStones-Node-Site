@@ -7,6 +7,7 @@ body {
 
 h1 {
   font-weight: normal;
+  font-size: 40px;
 }
 
 h2 {
@@ -43,6 +44,10 @@ em {
 
 #stones {
   padding-top: 10px;
+}
+
+#small {
+  font-size: 15px;
 }
 
 .links {

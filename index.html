@@ -86,19 +86,42 @@
             </div>
         </div>
 
-        <!-- Saleem starts messing shit up here (and everywhere shit has been commented out) -->
-
-        <div class="row bottom-small-spacer">
+        <!-- Saleem  -->
+        <!-- Desktop + Tablets -->
+        <div class="row bottom-small-spacer hidden-phone">
             <div align="center" class="span12">
                 <p><em>Skipping Stones is a musical exploration of beauty in the face of tragedy</em></p>
                     <div class="row top-small-spacer bottom-med-spacer hidden-phone">
                         <h1 id="big">Coming August</h1>
                     </div>
-                    <div class="row top-small-xspacer bottom-xsmall-spacer visible-phone">
-                            <h1>Coming August</h1>
-                    </div>
                 <h3>For PC/Mac/Linux & iOS/Android</h3>
                 <h2>Get notified on the release</h2>
+                <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+                    <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+                    <br></br>
+                    <input class="subscribe" name="commit" type="submit" value="Notify Me!" />
+                    <div style="height:45px;" id="response">
+                        <p>We'll only email on release</p>
+                    </div>
+                </form>
+                    <div class="fb-like" data-href="https://www.facebook.com/koopmode" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="verdana"></div> 
+                    <div class="top-xsmall-spacer"><a href="https://twitter.com/koopmode" onClick="_gaq.push(['_trackEvent', 'Social', 'click', 'FollowTwitter']);" class="twitter-follow-button" data-show-count="false">Follow @koopmode</a></div>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <br>            
+                <a href="http://ko-opmode.com" onClick="_gaq.push(['_trackEvent', 'Links', 'click', 'KO-OP']);"><img alt="ko-op logo" src="/images/ko-op.png"></a>
+                    
+            </div>
+        </div>
+
+        <!-- Phones -->
+         <div class="row bottom-small-spacer visible-phone">
+            <div align="center" class="span12">
+                <p><em id="small">Skipping Stones is a musical exploration of beauty in the face of tragedy</em></p>
+                    <div class="row top-small-xspacer bottom-xsmall-spacer">
+                            <h1>Coming August</h1>
+                    </div>
+                <h3 id="small">For PC/Mac/Linux & iOS/Android</h3>
+                <h3>Get notified on the release</h3>
                 <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
                     <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
                     <br></br>
