@@ -34,8 +34,8 @@ em {
   color: #c7015e;
 }
 
-#contact a{
-  color: #000000;
+.contact a{
+  color: #00557c;
 }
 
 .highlight {
@@ -82,16 +82,17 @@ em {
 
 
 .subscribe {
-  background-color:#bdc3c7;
-  -moz-border-radius:2px;
-  -webkit-border-radius:2px;
-  border-radius:5px;
+  background-color:#d6d3d6;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
   display:inline-block;
-  color:#2c3e50;
-  font-family:Lato;
-  font-size:14px;
+  color:#777777;
+  font-family:lato;
+  font-size:15px;
   font-weight:bold;
-  padding:6px 30px;
+  padding:6px 24px;
   text-decoration:none;
 }.subscribe:hover {
   background-color:#dfdfdf;
@@ -99,6 +100,7 @@ em {
   position:relative;
   top:1px;
 }
+
 
 
 #response p {
