@@ -3,7 +3,9 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
+  background-color: #FFFFFF;
 }
+
 
 h1 {
   font-weight: normal;
@@ -15,18 +17,26 @@ h2 {
 }
 
 a {
-  color: #000;
+  color: #d93554; 
   text-decoration: underline;
 }
 
 em {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+#about h1{
+  color: #d93554;
 }
 
 #big {
-  font-size: 72px;
+  font-size: 48px;
+  color: #c7015e;
 }
 
+.contact a{
+  color: #00557c;
+}
 
 .highlight {
   font-style: italic;
@@ -50,27 +60,39 @@ em {
   font-size: 15px;
 }
 
-.links {
+.links a {
   font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 16px gray;
 }
 
 .textfield {
-  width: 170px;
+  width: 120px;
   margin-right: 5px;
   margin-top: 10px;
 }
 
+.stroke {
+  color: #black;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+
 .subscribe {
-  background-color:#bdc3c7;
-  -moz-border-radius:2px;
-  -webkit-border-radius:2px;
-  border-radius:5px;
+  background-color:#d6d3d6;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
   display:inline-block;
-  color:#2c3e50;
-  font-family:Lato;
-  font-size:19px;
+  color:#777777;
+  font-family:lato;
+  font-size:15px;
   font-weight:bold;
-  padding:6px 30px;
+  padding:6px 24px;
   text-decoration:none;
 }.subscribe:hover {
   background-color:#dfdfdf;
@@ -80,7 +102,10 @@ em {
 }
 
 
+
 #response p {
   font-size: 14px;  
-  color: #777;
+  color: #000000;
+
+}
 }
