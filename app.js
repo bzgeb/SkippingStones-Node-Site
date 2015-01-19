@@ -9,6 +9,9 @@ try {
 var express = require('express')
   , MailChimpAPI = require('mailchimp').MailChimpAPI;
 
+var bodyParser = require('body-parser');
+var multer = require('multer'); 
+
 var mc_api_key = process.env.MC_API_KEY;
 var mc_newsletter_id = process.env.MC_NEWSLETTER_ID;
 
