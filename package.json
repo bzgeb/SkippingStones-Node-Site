@@ -6,6 +6,8 @@
         "express": "^4.8.0"
       , "mailchimp": "0.9.5"
       , "ejs": "~1.0.0"
+      , "body-parser": "^1.10.1"
+      , "multer": "^0.1.7"
     }
   , "engines": {
     "node": "0.10.35",
